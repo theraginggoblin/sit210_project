@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            
+            <link rel="stylesheet" href="css/styles.css">
+            <title>Post to Photon!</title>
+        </head>
+
+        <body>
+            <div class="container"> 
+                    <p>Type text to submit it to the Particle Photon</p>
+                    <input type="text" id="textbox" value="enter text here">
+                    <br>
+                    <br>
+                    <button type="button" onClick="submix_textbox()">Send</button>
+                    <br>
+                    <br>
+                    <p>Text to speech</p>
+                    <button type="button" onClick="speech_recognise()">Record Audio</button>
+                    <p class="output">Speech recognition text appears here</p>
+            </div>
+        </body>
+        <script src="js/index.js"></script>
+    </html>
