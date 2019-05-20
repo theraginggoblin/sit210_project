@@ -44,7 +44,7 @@ function submission(text) {
   var string_tail = text;
   var submission = 'args=' + string_tail;
 
-  xhttp.open("POST", "https://api.particle.io/v1/devices/29002b001647363335343834/drawstring?access_token=282670953186db150e1f87ec217711d8a1b9104b", true);
+  xhttp.open("POST", "https://api.particle.io/v1/devices/29002b001647363335343834/apimessage?access_token=282670953186db150e1f87ec217711d8a1b9104b", true);
   xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   xhttp.send(submission);
 }
